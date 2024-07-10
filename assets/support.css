@@ -1,0 +1,43 @@
+.footer{
+    padding: 25px 0;
+    background: #eee;
+}
+.footer__api{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer__api a{
+    font-weight: 700;
+    color: black;
+    text-underline-offset: 5px;
+    transition: all ease-in 0.3s;
+}
+.footer__api a:hover{
+    opacity: 0.7;
+    text-decoration: none;
+}
+.page{
+    padding: 50px 0;
+}
+.page-title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.page-content table{
+    border: 1px solid #000;
+}
+.page-content th{
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px 5px;
+    border-bottom: 1px solid #000;
+}
+.page-content td{
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px;
+    border-bottom: 1px solid #000;
+}
